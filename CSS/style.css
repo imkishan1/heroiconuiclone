@@ -87,7 +87,7 @@ nav {
 
 .links p {
     font-size: 14px;
-    margin-right: 5px;
+    margin-right: 10px;
     font-weight: 400;
     color: var(--icons-color);
 }
