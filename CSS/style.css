@@ -481,6 +481,7 @@ footer {
 }
 @media only screen and (max-width:480px){
     .button-div{
+
         flex-direction: column;
         flex:0 0 auto;
     }
@@ -490,5 +491,17 @@ footer {
     }
     .details .main-details:nth-child(2){
         margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .button-div{
+
+        flex-direction: row;
+        flex:1 1 auto;
+    }
+    .button {
+        min-width: 100% !important;
+        margin-right: 10px !important;
     }
 }
