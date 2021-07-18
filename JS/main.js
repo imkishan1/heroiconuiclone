@@ -10,7 +10,6 @@ function printbox(){
         part1.innerHTML+=temp;
         part2.innerHTML+=temp;
     }
-    console.log("hello")
 }
 
 printbox();
